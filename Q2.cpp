@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 char findGrade(double x){
     if(x>=91){
         return 'A';}
@@ -18,6 +16,7 @@ char findGrade(double x){
 int main(){
     
 cout << findGrade(91);
+cout << findGrade(60.1);
 
 return 0;
 }
